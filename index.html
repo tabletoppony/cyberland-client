@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cyberland.css">
+    <title>Cyberland</title>
+</head>
+
+<body>
+    <div id="backend-view" class="view">
+        <h1>Cyberland</h1>
+        <form id="input-backend" method="POST">
+            <label for="domain">Backend domain: </label>
+            <input type="text" name="domain" />
+            <button type="submit">Connect</button>
+            <div id="input-backend-errors"></div>
+        </form>
+    </div>
+    <div id="board-view" class="view">
+    </div>
+    <script src="cyberland.js"></script>
+</body>
+
+</html>
